@@ -1,0 +1,8 @@
+package com.example.app.DAO;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.app.entities.Booking;
+
+public interface BookingDAO extends JpaRepository<Booking,Integer>{
+
+}

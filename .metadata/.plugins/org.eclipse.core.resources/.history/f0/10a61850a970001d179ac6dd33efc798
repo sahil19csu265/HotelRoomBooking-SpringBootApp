@@ -1,0 +1,14 @@
+package com.example.app.models;
+
+import java.util.List;
+
+import com.example.app.entities.Room;
+
+public class RoomDetails {
+
+	private String generatedBookingID;
+	
+	private List<Room> availableRooms;
+	
+	
+}

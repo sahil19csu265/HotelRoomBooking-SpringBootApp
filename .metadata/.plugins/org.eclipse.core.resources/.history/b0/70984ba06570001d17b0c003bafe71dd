@@ -1,0 +1,11 @@
+package com.example.app.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="Booking_details")
+public class Booking {
+
+	
+}
