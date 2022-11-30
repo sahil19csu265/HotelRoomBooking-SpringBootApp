@@ -38,11 +38,12 @@
 ### SCREENSHOTS 
 
 <img width="1440" alt="Screenshot 2022-11-30 at 10 24 40 PM" src="https://user-images.githubusercontent.com/108087172/204868343-ba79783e-e993-44c8-92bf-6dca623cae35.png">
+-------------------------------------------------------------------------------------------------------------------------------------------
 
- 
 <img width="1025" alt="Screenshot 2022-11-30 at 10 26 20 PM" src="https://user-images.githubusercontent.com/108087172/204868380-5358b1fc-c9b5-4aa8-ad43-4c7c0b03c6dc.png">
- 
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="1025" alt="Screenshot 2022-11-30 at 10 26 42 PM" src="https://user-images.githubusercontent.com/108087172/204868397-fb76921c-1f75-43be-9ee3-78235b659822.png">
+
 
 
