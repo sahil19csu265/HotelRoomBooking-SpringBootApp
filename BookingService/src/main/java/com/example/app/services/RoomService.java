@@ -18,7 +18,7 @@ public class RoomService {
 	@Autowired
 	private RoomDAO roomDAO;
 	
-	public List<Room> getRoomDetails(){
-		return roomDAO.findAll();
+	public List<Room> getRoomDetails(int numOfRooms){
+		return roomDAO.findAll().subList(0,numOfRooms);
 	}
 }

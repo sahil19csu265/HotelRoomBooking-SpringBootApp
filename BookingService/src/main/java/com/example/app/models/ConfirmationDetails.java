@@ -1,22 +1,21 @@
 package com.example.app.models;
 
+import com.example.app.entities.Booking;
+
 public class ConfirmationDetails {
 
 	private String message;
 	
-	private int transactionID;
-	
-	private int bookingID;
-	
+	private Booking bookingDetails;
+
 	public ConfirmationDetails() {
 		super();
 	}
 
-	public ConfirmationDetails(String message, int transactionID, int bookingID) {
+	public ConfirmationDetails(String message,Booking bookingDetails) {
 		super();
 		this.message = message;
-		this.transactionID = transactionID;
-		this.bookingID = bookingID;
+		this.bookingDetails = bookingDetails;
 	}
 
 	public String getMessage() {
@@ -27,27 +26,18 @@ public class ConfirmationDetails {
 		this.message = message;
 	}
 
-	public int getTransactionID() {
-		return transactionID;
+	public Booking getBookingDetails() {
+		return bookingDetails;
 	}
 
-	public void setTransactionID(int transactionID) {
-		this.transactionID = transactionID;
-	}
-
-	public int getBookingID() {
-		return bookingID;
-	}
-
-	public void setBookingID(int bookingID) {
-		this.bookingID = bookingID;
+	public void setBookingDetails(Booking bookingDetails) {
+		this.bookingDetails = bookingDetails;
 	}
 
 	@Override
 	public String toString() {
-		return "ConfirmationDetails [message=" + message + ", transactionID=" + transactionID + ", bookingID="
-				+ bookingID + "]";
-	} 
+		return "ConfirmationDetails [message=" + message +", bookingDetails="+ bookingDetails + "]";
+	}
 	
 
 }

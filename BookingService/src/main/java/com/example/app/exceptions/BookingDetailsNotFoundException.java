@@ -16,7 +16,7 @@ public class BookingDetailsNotFoundException extends RuntimeException {
 
 	@Override
 	public String toString() {
-		return "ExpenseNotFoundException [message=" + message + "]";
+		return "BookingDetailsNotFoundException [message=" + message + "]";
 	}
 	
 }
